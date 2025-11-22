@@ -5,14 +5,14 @@ import AnimatedSection from './AnimatedSection'
 const Testimonials = () => {
   const testimonials = [
     {
-      quote: "The speed and precision are unmatched. What would have taken our team a week to debug was fixed in a single day. Absolutely essential for any critical project.",
-      author: "Sarah Chen",
-      title: "CTO at StartupX"
+      quote: "CMSGrip doubled our organic traffic in just three months. Their SEO strategy is second to none.",
+      author: "John Doe",
+      title: "CEO at ClientX"
     },
     {
-      quote: "Incredibly professional and efficient. The automation script delivered has saved us countless hours of manual work. A true expert and a pleasure to work with.",
-      author: "David Lee",
-      title: "Lead Engineer at DataCorp"
+      quote: "The new website CMSGrip built for us has been a game-changer. Our conversion rate has increased by 50%.",
+      author: "Jane Smith",
+      title: "Marketing Director at BrandY"
     }
   ]
 
@@ -21,7 +21,7 @@ const Testimonials = () => {
       <div className="container mx-auto px-6">
         <AnimatedSection>
           <h2 className="text-3xl md:text-4xl font-mono font-bold text-center mb-16 text-white">
-            <span className="border-b-2 border-accent pb-2">Testimonials</span>
+            <span className="border-b-2 border-accent pb-2">What Our Clients Say</span>
           </h2>
         </AnimatedSection>
         

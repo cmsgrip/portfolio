@@ -80,7 +80,7 @@ const Contact = () => {
                   required
                   rows={6}
                   className="w-full px-4 py-3 bg-gray-800/50 border border-gray-700 rounded-lg focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent transition-all duration-300 text-white font-sans resize-none"
-                  placeholder="Tell me about your project..."
+                  placeholder="Tell us about your marketing needs..."
                 />
               </div>
               <button

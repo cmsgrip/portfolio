@@ -1,28 +1,28 @@
 import React from 'react'
-import { Bug, Code, Zap, TestTube } from 'lucide-react'
+import { Search, DollarSign, Code, Users } from 'lucide-react'
 import AnimatedSection from './AnimatedSection'
 
 const Services = () => {
   const services = [
     {
-      icon: Bug,
-      title: "Surgical Bug Fixing",
-      description: "Quickly diagnose, resolve, and test complex bugs to get your application back on track."
+      icon: Search,
+      title: "SEO & Content Strategy",
+      description: "Boost your visibility and rank higher on search engines with our expert SEO and content strategies."
+    },
+    {
+      icon: DollarSign,
+      title: "Paid Advertising (PPC)",
+      description: "Drive targeted traffic and generate leads with high-ROI paid advertising campaigns on Google and social media."
     },
     {
       icon: Code,
-      title: "Rapid Feature Development",
-      description: "Build and integrate high-quality features, from API endpoints to UI components, with maximum efficiency."
+      title: "Web Development & Design",
+      description: "We build beautiful, high-performance websites that convert visitors into customers."
     },
     {
-      icon: Zap,
-      title: "Automation & Scripting",
-      description: "Automate manual tasks and data processing with robust Python and Bash scripts to save you time and money."
-    },
-    {
-      icon: TestTube,
-      title: "Test-Driven Quality",
-      description: "Ensure your code is reliable and maintainable with comprehensive unit and integration tests."
+      icon: Users,
+      title: "Social Media Management",
+      description: "Engage your audience and build a loyal community with our comprehensive social media management."
     }
   ]
 
@@ -31,7 +31,7 @@ const Services = () => {
       <div className="container mx-auto px-6">
         <AnimatedSection>
           <h2 className="text-3xl md:text-4xl font-mono font-bold text-center mb-16 text-white">
-            <span className="border-b-2 border-accent pb-2">Core Services</span>
+            <span className="border-b-2 border-accent pb-2">Our Services</span>
           </h2>
         </AnimatedSection>
         

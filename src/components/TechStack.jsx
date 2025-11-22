@@ -8,7 +8,7 @@ const TechStack = () => {
   ]
 
   return (
-    <section className="py-20 bg-gray-900/50">
+    <section id="tech-stack" className="py-20 bg-gray-900/50">
       <div className="container mx-auto px-6">
         <AnimatedSection>
           <h2 className="text-3xl md:text-4xl font-mono font-bold text-center mb-16 text-white">

@@ -5,6 +5,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
+    { name: 'Home', href: 'hero' },
     { name: 'Services', href: 'services' },
     { name: 'Projects', href: 'projects' },
     { name: 'Tech Stack', href: 'tech-stack' },
@@ -19,7 +20,7 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-40 bg-primary/80 backdrop-blur-md shadow-lg">
-      <div className="container mx-auto px-6 py-4 flex justify-between items-center">
+      <div className="container mx-auto px-6 py-3 flex justify-between items-center">
         <div className="text-2xl font-bold font-mono text-white">
           <a href="#" onClick={() => scrollToSection('hero')} className="hover:text-accent transition-colors duration-300">
             Elite Developer
